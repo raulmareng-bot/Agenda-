@@ -1,0 +1,21 @@
+MINHA AGENDA INTELIGENTE — Versão 1.0
+
+Aplicativo web instalável (PWA). Conteúdo: compromissos, tarefas, notas, controle simples de finanças, diário de saúde, gravação de áudio de reuniões e atas em Word (.docx).
+
+INSTALAÇÃO NO IPHONE:
+1. Publique TODO o conteúdo desta pasta em um servidor HTTPS. Exemplo: repositório público no GitHub Pages, ou hospedagem estática.
+2. Abra o endereço HTTPS publicado no navegador SAFARI do iPhone.
+3. Toque em Compartilhar > Adicionar à Tela de Início > Adicionar.
+4. Abra o ícone "Minha Agenda" na tela inicial.
+
+PARA TESTAR NO COMPUTADOR:
+Pode abrir index.html diretamente para tarefas e cadastros; para testar microfone e funcionamento offline, use HTTPS (ou localhost em ambiente de desenvolvimento).
+
+LIMITAÇÕES IMPORTANTES:
+- Os dados ficam apenas no armazenamento deste navegador/dispositivo. Não há sincronização em nuvem, conta nem senha. Dados de saúde/finanças sensíveis merecem cautela. Exporte backups JSON periodicamente.
+- A gravação exige permissão de microfone, HTTPS e suporte ao MediaRecorder. Mantenha a tela aberta durante o registro. O áudio é baixado como arquivo separado, não armazenado no backup.
+- A transcrição automática NÃO foi implementada nesta versão. Há campo para colar transcrições feitas com outro serviço e elaborar manualmente decisões e encaminhamentos; a ata Word inclui o texto registrado.
+- Notificações só podem ser conferidas com o aplicativo em primeiro plano. Alertas em segundo plano exigem push ou integração com o Calendário iOS.
+- Não faz processamento por IA nem gera resumo automático das falas.
+- A exportação .docx é um documento Word verdadeiro, com participantes e espaços para assinatura.
+- A instalação pela tela inicial não é equivalente à publicação na App Store.
